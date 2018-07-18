@@ -1,12 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb096a30-5963-47bc-9dfc-a74c80ac5027" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="cb096a30-5963-47bc-9dfc-a74c80ac5027" name="Default" comment="删除无用文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DownloaderLib/DownloaderLib.iml" afterPath="$PROJECT_DIR$/DownloaderLib/DownloaderLib.iml" />
-      <change beforePath="$PROJECT_DIR$/SmallDownloader.iml" afterPath="$PROJECT_DIR$/SmallDownloader.iml" />
     </list>
+    <ignored path=".gradle/" />
+    <ignored path=".idea/" />
+    <ignored path=".idea/caches/build_file_checksums.ser" />
+    <ignored path=".idea/codeStyles/Project.xml" />
+    <ignored path=".idea/libraries/Gradle__android_arch_core_common_1_1_0_jar.xml" />
+    <ignored path=".idea/libraries/Gradle__android_arch_core_runtime_1_1_0.xml" />
+    <ignored path=".idea/libraries/Gradle__android_arch_lifecycle_common_1_1_0_jar.xml" />
+    <ignored path=".idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0.xml" />
+    <ignored path=".idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0.xml" />
+    <ignored path=".idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0.xml" />
+    <ignored path=".idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1.xml" />
+    <ignored path=".idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1.xml" />
+    <ignored path=".idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_1.xml" />
+    <ignored path=".idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_1_1_jar.xml" />
+    <ignored path=".idea/libraries/Gradle__com_android_support_support_annotations_27_1_1_jar.xml" />
+    <ignored path=".idea/libraries/Gradle__com_android_support_support_compat_27_1_1.xml" />
+    <ignored path=".idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1.xml" />
+    <ignored path=".idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1.xml" />
+    <ignored path=".idea/libraries/Gradle__com_android_support_support_fragment_27_1_1.xml" />
+    <ignored path=".idea/libraries/Gradle__com_android_support_support_media_compat_27_1_1.xml" />
+    <ignored path=".idea/libraries/Gradle__com_android_support_support_v4_27_1_1.xml" />
+    <ignored path=".idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1.xml" />
+    <ignored path=".idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2.xml" />
+    <ignored path=".idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2.xml" />
+    <ignored path=".idea/libraries/Gradle__com_android_support_test_monitor_1_0_2.xml" />
+    <ignored path=".idea/libraries/Gradle__com_android_support_test_runner_1_0_2.xml" />
+    <ignored path=".idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2_jar.xml" />
+    <ignored path=".idea/libraries/Gradle__com_google_flatbuffers_flatbuffers_java_1_8_0_jar.xml" />
+    <ignored path=".idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" />
+    <ignored path=".idea/libraries/Gradle__io_objectbox_objectbox_android_1_5_0.xml" />
+    <ignored path=".idea/libraries/Gradle__io_objectbox_objectbox_java_1_5_0_jar.xml" />
+    <ignored path=".idea/libraries/Gradle__io_objectbox_objectbox_java_api_1_5_0_jar.xml" />
+    <ignored path=".idea/libraries/Gradle__io_objectbox_objectbox_macos_1_5_0_jar.xml" />
+    <ignored path=".idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" />
+    <ignored path=".idea/libraries/Gradle__junit_junit_4_12_jar.xml" />
+    <ignored path=".idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" />
+    <ignored path=".idea/libraries/Gradle__org_greenrobot_essentials_3_0_0_RC1_jar.xml" />
+    <ignored path=".idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" />
+    <ignored path=".idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" />
+    <ignored path=".idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" />
+    <ignored path=".idea/gradle.xml" />
+    <ignored path=".idea/misc.xml" />
+    <ignored path=".idea/modules.xml" />
+    <ignored mask="*.idea" />
+    <ignored path="*/.idea/" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +92,17 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+            <state relative-caret-position="76">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -3314,6 +3359,14 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="删除无用文件">
+      <created>1531903212674</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531903212674</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3352,6 +3405,10 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="删除无用文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除无用文件" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -3375,8 +3432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+        <state relative-caret-position="76">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
