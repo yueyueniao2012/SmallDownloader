@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yyn.download" >
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23"/>
+</manifest>
