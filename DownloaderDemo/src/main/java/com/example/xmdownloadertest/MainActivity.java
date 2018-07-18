@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.add_one).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                findViewById(R.id.add_one).setEnabled(false);
                 MyDownloadModel downloadModel = new MyDownloadModel();
                 downloadModel.setDownloadUrl("http://audio.xmcdn.com/group38/M02/A0/BA/wKgJo1poJaqxzffqAFOjiGwrplg133.m4a");
 //                downloadModel.setDownloadUrl("http://s1.xmcdn.com/apk/MainApp_v6.3.99.3_c163_release_proguard_180523_and-a1.apk");
@@ -89,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.add_ten).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                findViewById(R.id.add_ten).setEnabled(false);
                 List<IDownloadModel> list = new ArrayList<>();
                 MyDownloadModel downloadModel = new MyDownloadModel();
                 downloadModel.setDownloadPriority(0);
@@ -139,6 +141,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mDownloadService.resumeAllDownloadModels();
+                findViewById(R.id.add_one).setEnabled(true);
+                findViewById(R.id.add_ten).setEnabled(true);
             }
         });
 
