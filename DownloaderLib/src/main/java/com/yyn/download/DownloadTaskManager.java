@@ -133,9 +133,7 @@ public class DownloadTaskManager implements IDownloadTaskCallback,IDownloadTaskM
             protected void beforeExecute(Thread t, Runnable r) {
                 super.beforeExecute(t, r);
                 DownloadTask downloadTask = (DownloadTask)r;
-                Log.i(DownloadConstants.TAG,"beforeExecute downloadTask mDownloaddingTaskList size before add:"+mDownloaddingTaskList.size());
                 mDownloaddingTaskList.add(downloadTask);
-                Log.i(DownloadConstants.TAG,"beforeExecute downloadTask mDownloaddingTaskList size after add:"+mDownloaddingTaskList.size());
                 if(mDownloaddingTaskList.size()>3){
                     Log.i(DownloadConstants.TAG,"异常情况");
                 }
@@ -145,11 +143,7 @@ public class DownloadTaskManager implements IDownloadTaskCallback,IDownloadTaskM
             protected void afterExecute(Runnable r, Throwable t) {
                 super.afterExecute(r, t);
                 DownloadTask downloadTask = (DownloadTask)r;
-//                Log.i(DownloadConstants.TAG,"afterExecute downloadTask:"+downloadTask.getDownloadModel().getDownloadPriority()+
-//                " getDownloadState()："+downloadTask.getDownloadModel().getDownloadState());
-                Log.i(DownloadConstants.TAG,"afterExecute downloadTask mDownloaddingTaskList size before remove:"+mDownloaddingTaskList.size());
                 mDownloaddingTaskList.remove(downloadTask);
-                Log.i(DownloadConstants.TAG,"afterExecute downloadTask mDownloaddingTaskList size after remove:"+mDownloaddingTaskList.size());
                 if(downloadTask.shallRetryAfterExecute()
                         && downloadTask.getDownloadModel().getDownloadState()!=DownloadConstants.STATE_COMPLETE){
                     //如果非用户手动暂停，重新加入下载队列中
