@@ -475,38 +475,4 @@ public class DownloadTask implements IDownloadTask<DownloadTask> {
         return mDownloadModel.hashCode();
     }
 
-    //    private void runForTest(){
-//        Log.i(DownloadConstants.TAG,"mDownloadModel start Priority:"+mDownloadModel.getDownloadPriority()
-//                +" thread name:"+Thread.currentThread().getName());
-//
-//        if(mIsCancle){
-//            mDownloadModel.setDownloadState(DownloadConstants.STATE_PAUSE);
-//            mISingleDownloadTaskCallback.onPause(mDownloadModel);
-//            return;
-//        }
-//
-//        mDownloadModel.setDownloadState(DownloadConstants.STATE_DOWNLOADING);
-//        mISingleDownloadTaskCallback.onStart(mDownloadModel);
-//        int i = mDownloadModel.getDownloadProgress();
-//        while(i++<200) {
-//
-//            if(mIsCancle){
-//                mDownloadModel.setDownloadState(DownloadConstants.STATE_PAUSE);
-//                mISingleDownloadTaskCallback.onPause(mDownloadModel);
-//                return;
-//            }
-//            mDownloadModel.setDownloadProgress(i);
-//            mISingleDownloadTaskCallback.onDownloadProgress(mDownloadModel);
-//            try {
-//                Thread.sleep(100);
-//            } catch (InterruptedException e) {
-//                e.printStackTrace();
-//            }
-//        }
-//        mISingleDownloadTaskCallback.onComplete(mDownloadModel);
-//        mDownloadModel.setDownloadState(DownloadConstants.STATE_COMPLETE);
-//        Log.i(DownloadConstants.TAG,"mDownloadModel end priority:"+mDownloadModel.getDownloadPriority()
-//                +" mIsCancle:"+mIsCancle+" i:"+i);
-//    }
-
 }
